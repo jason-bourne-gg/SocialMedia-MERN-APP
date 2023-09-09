@@ -46,7 +46,7 @@ export const getUserPosts = async (req, res) => {
   }
 };
 
-/* UPDATE */
+/* LIKE DISLIKE POSTS */
 export const likePost = async (req, res) => {
   try {
     const { id } = req.params;
