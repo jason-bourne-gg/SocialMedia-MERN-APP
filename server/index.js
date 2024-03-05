@@ -66,4 +66,6 @@ mongoose
     // User.insertMany(users);
     // Post.insertMany(posts);
   })
-  .catch((error) => console.log(`Error in Conenction to MONGO_DB..Error => ${error} `));
+  .catch((error) =>
+    console.log(`Error in Conenction to MONGO_DB..Error => ${error} `)
+  );
